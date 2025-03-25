@@ -10,7 +10,10 @@ In addition, the following two repositories are a good reference to know more ab
 
 2. [CUDA Samples](https://github.com/NVIDIA-developer-blog/code-samples/tree/master)
 
-# Table of Contents
+## Table of Contents
 
 1. [Local rank of MPI process](./01_Local_rank_node/):- This folder contains an example on how to find the local rank of an MPI process on a node.
 
+2. [RDMA example](./02_RDMA_example/):- This folder contains an example on how to use RDMA to transfer data between GPUs on different nodes
+
+3. [Relocatable Device Code](./03_Relocatable_device_code/):- This folder contains an example on why `rdc` flag is needed and how to use it.
