@@ -21,7 +21,7 @@ To run the code, you can use the following command:
 mpirun -np 2 --mca pml ucx ./rdma_mnodes_cuda_mpi
 ```
 
-Both these details are mentioned in [Job_scipt](./submit.sh) file.
+Both these details are mentioned in [Job script](./submit.sh).
 
 ## Known issues
 
