@@ -9,3 +9,8 @@ In addition, the following two repositories are a good reference to know more ab
 1. [Multi-GPU Programming Model](https://github.com/NVIDIA/multi-gpu-programming-models)
 
 2. [CUDA Samples](https://github.com/NVIDIA-developer-blog/code-samples/tree/master)
+
+# Table of Contents
+
+1. [Local rank of MPI process](./01_Local_rank_node/):- This folder contains an example on how to find the local rank of an MPI process on a node.
+
