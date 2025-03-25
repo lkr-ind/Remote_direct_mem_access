@@ -2,3 +2,4 @@
 *.o
 *.out
 *.txt
+my_cuda_program
