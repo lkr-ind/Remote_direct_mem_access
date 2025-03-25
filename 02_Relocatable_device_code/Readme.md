@@ -10,7 +10,7 @@ There are 3 files in this directory that demonstrate how to use RDC in CUDA comp
 
 3. [main.cu](./main.cu): A CUDA source file that uses the device function `multiply`.
 
-# Compiling code without RDC
+## Compiling code without RDC
 
 At first, let us try to compile the code without RDC. To do this, we will compile the `device_functions.cu` and `main.cu` files separately and then link them together.
 
@@ -32,7 +32,7 @@ ptxas fatal   : Unresolved extern function '_Z8multiplyff'
 
 As can be seen from the error message, the compiler is unable to find the definition of the `multiply` function. This is where `RDC` flag comes into play and allows us to define `__device__` functions in a separate compilation unit and use in another.
 
-# Compiling code with RDC
+## Compiling code with RDC
 
 To compile the code with RDC, we need to add the `-rdc=true` flag to the `nvcc` command. Let us compile the `device_functions.cu` file with the RDC flag.
 
