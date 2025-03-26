@@ -25,6 +25,6 @@ Both these details are mentioned in [Job script](./submit.sh).
 
 ## Known issues
 
-We have recently started testing **GPUDirectRDMA** on HX1 cluster. At present, we observed that code only works with the above module. Moreover, the code was tested on a special queue and needs to be tested on a genaral queue.
+We have recently started testing **GPUDirectRDMA** on HX1 cluster. At present, we observed that code only works only with a few specific modules like the one above. We are trying to find out how to make it work with other modules as well.
 
 Please feel free to test the code and provide feedback.
